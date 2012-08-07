@@ -10,7 +10,8 @@ https://gist.github.com/2031681
 And uses Node NPM Websockets (if using on Windows, you need to install distributable C++)
 https://github.com/Worlize/WebSocket-Node
 
-== Use ==
+Use
+-------
 
 Run the monitor.html in your own webserver, such as http://localhost/monitor.html and add the two JS lines of target.html into any page you're working
 on (or simply modify target.html).  Run [monitor-ip]/target.html on the device you want to remotely monitor.  E.g. http://192.168.1.252/target.html
@@ -21,7 +22,8 @@ Any errors in the target.html file/js will show on your monitor.html page (on th
 inject JS, such as:
 alert("Hello, world!");
 
-== Known Bugs ==
+Known Bugs
+-------
 
 Websockets is not supported by many browsers including Android 4.
 
